@@ -1,0 +1,18 @@
+"""
+https://code.sololearn.com/Wj7ipJv3NMm2/?ref=app
+https://www.sololearn.com/compiler-playground/Wj7ipJv3NMm2
+"""
+b = "/compiler-playground/"
+
+url = input()
+if b in url:
+   c = url.replace(b,"/")
+   d = c.replace("www","code")
+
+print(d+"/?ref=app")
+
+open('.png','w').write('')
+print('''<style>
+    img{display:none;}
+    body{font-size:85%; background-color:#353543; color:goldenrod}
+</style>''')
